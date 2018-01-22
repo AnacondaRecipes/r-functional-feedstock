@@ -10,8 +10,8 @@ package:
 source:
   fn: functional_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/functional_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/functional/functional_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/functional_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/functional/functional_{{ version }}.tar.gz
   sha256: 19b78e27c27b1081245222c42da4dd1cb65c5643e6da9d6c1a6e997755c21888
 
 
